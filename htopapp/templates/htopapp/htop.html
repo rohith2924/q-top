@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>/htop Output</title>
+</head>
+<body>
+    <h1>/htop Output</h1>
+    <p><strong>Name:</strong> {{ name }}</p>
+    <p><strong>Username:</strong> {{ username }}</p>
+    <p><strong>Server Time (IST):</strong> {{ server_time_ist }}</p>
+    <h2>Top Output</h2>
+    <pre>{{ top_output|safe }}</pre>
+</body>
+</html>
